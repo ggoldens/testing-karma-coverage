@@ -3,13 +3,20 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>First spec</title>
-    <link href="lib/jasmine.css" rel="stylesheet"></link>
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
 </head>
 <body>
-    <script type="text/javascript" src="lib/jasmine.js"></script>
-    <script type="text/javascript" src="lib/jasmine-html.js"></script>
-    <script type="text/javascript" src="lib/boot.js"></script>
-    <script type="text/javascript" src="tests/specs.js"></script>
+    <h1 class="title">Simple calculator</h1>
+    <input class="input" title="calculator" type="text" onchange="calculate(this.value)" value="1+2" placeholder="Enter operation" />
+
+    <div class="result-container">
+        <div class="result-title">Result</div>
+        <span id="result">3</span>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
