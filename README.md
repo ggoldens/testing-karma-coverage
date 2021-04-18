@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/ggoldens/testing-karma-coverage.svg?branch=master)](https://travis-ci.org/ggoldens/testing-karma-coverage)
